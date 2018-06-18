@@ -2,7 +2,7 @@ var song;
 
 
 function preload(){
-	song = loadSound('sound/bensound-summer.mp3');
+	//song = loadSound('sound/bensound-summer.mp3');
 	//song2 = loadSound('sound/420356__eponn__crash.wav');
 }
 
@@ -400,7 +400,7 @@ draw = function() {
 // Scene Change
 mouseClicked=function(){
 
-	song.play();
+	//song.play();
 
 // if ( song.isPlaying() ) { // .isPlaying() returns a boolean
     //song.stop();
